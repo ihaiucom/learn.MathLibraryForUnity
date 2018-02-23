@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{966E76AE-1AE4-2663-2A82-A7BA29AF4466}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DestMath">
+      <HintPath>Assets\MathLibraryForUnity\Lib\DestMath.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\MathLibraryForUnity\Source\Curves\CatmullRomSpline3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Source\Curves\CubicSpline3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Source\Curves\SplineBase.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Source\Misc\PointsFilter.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Source\Misc\PoissonDiskSampler.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Source\Misc\RandomSamplers.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Source\Misc\ShuffleBag.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Source\Misc\Util.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Approximation\2D\Test_ApprLineFit2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Approximation\3D\Test_ApprLineFit3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Approximation\3D\Test_ApprPlaneFit3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContBox2IncludeBox2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContCircle2IncludeCircle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContCreateAAB2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContCreateBox2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContCreateCircle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContCreateScribeCircle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContPoint2AAB2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContPoint2Box2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContPoint2Circle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContPoint2ConvexPolygon2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContPoint2Polygon2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\2D\Test_ContPoint2Triangle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\3D\Test_ContBox3IncludeBox3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\3D\Test_ContCreateAAB3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\3D\Test_ContCreateBox3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\3D\Test_ContCreateScribeCircle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\3D\Test_ContCreateScribeSphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\3D\Test_ContCreateSphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\3D\Test_ContPoint3AAB3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\3D\Test_ContPoint3Box3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\3D\Test_ContPoint3Sphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Containment\3D\Test_ContSphere3IncludeSphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Curves\Test_CatmullRom3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Curves\Test_CubicSpline3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Curves\Test_FollowSpline.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistLine2Line2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistLine2Ray2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistLine2Segment2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistPoint2AAB2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistPoint2Box2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistPoint2Circle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistPoint2Line2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistPoint2Ray2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistPoint2Segment2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistPoint2Triangle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistRay2Ray2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistRay2Segment2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\2D\Test_DistSegment2Segment2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistLine3Box3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistLine3Line3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistLine3Ray3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistLine3Segment3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistPoint3AAB3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistPoint3Box3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistPoint3Circle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistPoint3HollowCircle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistPoint3Line3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistPoint3Plane3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistPoint3Ray3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistPoint3Rectangle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistPoint3Segment3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistPoint3Sphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistRay3Ray3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistRay3Segment3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistSegment3Box3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Distance\3D\Test_DistSegment3Segment3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\GeometricAlgorithms\Test_ConcaveHull2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\GeometricAlgorithms\Test_ConvexHull2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\GeometricAlgorithms\Test_ConvexHull3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrAAB2AAB2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrAAB2Circle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrBox2Box2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrBox2Circle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrCircle2Circle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrConvexPolygon2ConvexPolygon2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrLine2AAB2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrLine2Box2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrLine2Circle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrLine2ConvexPolygon2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrLine2Line2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrLine2Ray2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrLine2Segment2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrLine2Triangle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrRay2AAB2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrRay2Box2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrRay2Circle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrRay2ConvexPolygon2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrRay2Polygon2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrRay2Ray2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrRay2Segment2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrRay2Triangle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrSegment2AAB2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrSegment2Box2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrSegment2Circle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrSegment2ConvexPolygon2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrSegment2Segment2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrSegment2Triangle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\2D\Test_IntrTriangle2Triangle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrAAB3AAB3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrAAB3Sphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrBox3Box3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrBox3Capsule3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrBox3Sphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrLine3AAB3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrLine3Box3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrLine3Circle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrLine3Plane3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrLine3Polygon3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrLine3Rectangle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrLine3Sphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrLine3Triangle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrPlane3AAB3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrPlane3Box3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrPlane3Plane3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrPlane3Sphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrPlane3Triangle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrRay3AAB3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrRay3Box3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrRay3Circle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrRay3Plane3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrRay3Polygon3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrRay3Rectangle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrRay3Sphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrRay3Triangle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrSegment3AAB3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrSegment3Box3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrSegment3Circle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrSegment3Plane3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrSegment3Polygon3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrSegment3Rectangle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrSegment3Sphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrSegment3Triangle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrSphere3Sphere3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Intersection\3D\Test_IntrTriangle3Triangle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_CylindricalCoords.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_Interpolation.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_MathfEx.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_Matrix4x4Ex.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_OverlappedStep.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_PoissonDiskSampler.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_PolarCoords.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_Random.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_Random2D.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_Random3D.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_RandomDistribution.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_RandomInTriangle.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_RandomOnMesh.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_RandomRotation.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_SphericalCoords.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_Vector2Array.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Misc\Test_Vector3Array.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\NumericalAnalysis\Test_NumericalBrentsMethod.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\NumericalAnalysis\Test_NumericalIntegrator.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\NumericalAnalysis\Test_NumericalLinearSystem.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\NumericalAnalysis\Test_NumericalOdeSolver.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\NumericalAnalysis\Test_NumericalPolyRoots.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Objects\Test_Polygon2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Objects\Test_Polygon3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Objects\Test_Rectangle3.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Objects\Test_Triangle2.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Query\2D\Test_Line2Sides.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Query\2D\Test_Triangle2Sides.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Query\3D\Test_Plane3Sides.cs" />
+    <Compile Include="Assets\MathLibraryForUnity\Tests\Scripts\Test_Base.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\MathLibraryForUnity\Doc\VersionLog.txt" />
+    <None Include="Assets\MathLibraryForUnity\Lib\DestMath.XML" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

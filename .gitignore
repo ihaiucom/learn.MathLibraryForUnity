@@ -1,0 +1,10 @@
+!*.dll
+!*.exe
+.git/.MERGE_MSG*
+.git/MERGE_MSG
+.DS_Store
+*/.DS_Store
+MathLibraryForUnity/obj*
+MathLibraryForUnity/Library
+MathLibraryForUnity/Library*
+MathLibraryForUnity/Temp*
