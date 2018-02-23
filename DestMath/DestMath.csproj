@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{65A2CE9B-2209-4AF7-8B3D-97261500CF8C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>DestMath</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine" />
+    <Reference Include="System.Core" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dest.Math\AAB2.cs" />
+    <Compile Include="Dest.Math\AAB3.cs" />
+    <Compile Include="Dest.Math\Approximation.cs" />
+    <Compile Include="Dest.Math\Box2.cs" />
+    <Compile Include="Dest.Math\Box3.cs" />
+    <Compile Include="Dest.Math\BrentsRoot.cs" />
+    <Compile Include="Dest.Math\Capsule3.cs" />
+    <Compile Include="Dest.Math\Circle2.cs" />
+    <Compile Include="Dest.Math\Circle2Circle2Intr.cs" />
+    <Compile Include="Dest.Math\Circle3.cs" />
+    <Compile Include="Dest.Math\ConcaveHull.cs" />
+    <Compile Include="Dest.Math\ConcaveHull2.cs" />
+    <Compile Include="Dest.Math\ConvexHull.cs" />
+    <Compile Include="Dest.Math\ConvexHull1.cs" />
+    <Compile Include="Dest.Math\ConvexHull2.cs" />
+    <Compile Include="Dest.Math\ConvexHull3.cs" />
+    <Compile Include="Dest.Math\CubicRoots.cs" />
+    <Compile Include="Dest.Math\DefaultLogger.cs" />
+    <Compile Include="Dest.Math\Distance.cs" />
+    <Compile Include="Dest.Math\Edge2.cs" />
+    <Compile Include="Dest.Math\Edge3.cs" />
+    <Compile Include="Dest.Math\EigenData.cs" />
+    <Compile Include="Dest.Math\EigenDecomposition.cs" />
+    <Compile Include="Dest.Math\EmptyLogger.cs" />
+    <Compile Include="Dest.Math\Float6.cs" />
+    <Compile Include="Dest.Math\ILogger.cs" />
+    <Compile Include="Dest.Math\Integrator.cs" />
+    <Compile Include="Dest.Math\Intersection.cs" />
+    <Compile Include="Dest.Math\IntersectionTypes.cs" />
+    <Compile Include="Dest.Math\Line2.cs" />
+    <Compile Include="Dest.Math\Line2AAB2Intr.cs" />
+    <Compile Include="Dest.Math\Line2Box2Intr.cs" />
+    <Compile Include="Dest.Math\Line2Circle2Intr.cs" />
+    <Compile Include="Dest.Math\Line2ConvexPolygon2Intr.cs" />
+    <Compile Include="Dest.Math\Line2Line2Intr.cs" />
+    <Compile Include="Dest.Math\Line2Ray2Intr.cs" />
+    <Compile Include="Dest.Math\Line2Segment2Intr.cs" />
+    <Compile Include="Dest.Math\Line2Triangle2Intr.cs" />
+    <Compile Include="Dest.Math\Line3.cs" />
+    <Compile Include="Dest.Math\Line3AAB3Intr.cs" />
+    <Compile Include="Dest.Math\Line3Box3Dist.cs" />
+    <Compile Include="Dest.Math\Line3Box3Intr.cs" />
+    <Compile Include="Dest.Math\Line3Circle3Intr.cs" />
+    <Compile Include="Dest.Math\Line3Plane3Intr.cs" />
+    <Compile Include="Dest.Math\Line3Polygon3Intr.cs" />
+    <Compile Include="Dest.Math\Line3Rectangle3Intr.cs" />
+    <Compile Include="Dest.Math\Line3Sphere3Intr.cs" />
+    <Compile Include="Dest.Math\Line3Triangle3Intr.cs" />
+    <Compile Include="Dest.Math\LinearSystem.cs" />
+    <Compile Include="Dest.Math\Logger.cs" />
+    <Compile Include="Dest.Math\Mathfex.cs" />
+    <Compile Include="Dest.Math\Matrix4x4ex.cs" />
+    <Compile Include="Dest.Math\OdeEuler.cs" />
+    <Compile Include="Dest.Math\OdeFunction.cs" />
+    <Compile Include="Dest.Math\OdeMidpoint.cs" />
+    <Compile Include="Dest.Math\OdeRungeKutta4.cs" />
+    <Compile Include="Dest.Math\OdeSolver.cs" />
+    <Compile Include="Dest.Math\Orientations.cs" />
+    <Compile Include="Dest.Math\Plane3.cs" />
+    <Compile Include="Dest.Math\Plane3Plane3Intr.cs" />
+    <Compile Include="Dest.Math\Plane3Sphere3Intr.cs" />
+    <Compile Include="Dest.Math\Plane3Triangle3Intr.cs" />
+    <Compile Include="Dest.Math\Polygon2.cs" />
+    <Compile Include="Dest.Math\Polygon3.cs" />
+    <Compile Include="Dest.Math\Polynomial.cs" />
+    <Compile Include="Dest.Math\ProjectionPlanes.cs" />
+    <Compile Include="Dest.Math\QuadraticRoots.cs" />
+    <Compile Include="Dest.Math\QuarticRoots.cs" />
+    <Compile Include="Dest.Math\Quaternionex.cs" />
+    <Compile Include="Dest.Math\Query.cs" />
+    <Compile Include="Dest.Math\Query2.cs" />
+    <Compile Include="Dest.Math\Query3.cs" />
+    <Compile Include="Dest.Math\QueryTypes.cs" />
+    <Compile Include="Dest.Math\Rand.cs" />
+    <Compile Include="Dest.Math\Ray2.cs" />
+    <Compile Include="Dest.Math\Ray2AAB2Intr.cs" />
+    <Compile Include="Dest.Math\Ray2Box2Intr.cs" />
+    <Compile Include="Dest.Math\Ray2Circle2Intr.cs" />
+    <Compile Include="Dest.Math\Ray2ConvexPolygon2Intr.cs" />
+    <Compile Include="Dest.Math\Ray2Polygon2Intr.cs" />
+    <Compile Include="Dest.Math\Ray2Ray2Intr.cs" />
+    <Compile Include="Dest.Math\Ray2Segment2Intr.cs" />
+    <Compile Include="Dest.Math\Ray2Triangle2Intr.cs" />
+    <Compile Include="Dest.Math\Ray3.cs" />
+    <Compile Include="Dest.Math\Ray3AAB3Intr.cs" />
+    <Compile Include="Dest.Math\Ray3Box3Intr.cs" />
+    <Compile Include="Dest.Math\Ray3Circle3Intr.cs" />
+    <Compile Include="Dest.Math\Ray3Plane3Intr.cs" />
+    <Compile Include="Dest.Math\Ray3Polygon3Intr.cs" />
+    <Compile Include="Dest.Math\Ray3Rectangle3Intr.cs" />
+    <Compile Include="Dest.Math\Ray3Sphere3Intr.cs" />
+    <Compile Include="Dest.Math\Ray3Triangle3Intr.cs" />
+    <Compile Include="Dest.Math\Rectangle3.cs" />
+    <Compile Include="Dest.Math\RootFinder.cs" />
+    <Compile Include="Dest.Math\Segment2.cs" />
+    <Compile Include="Dest.Math\Segment2AAB2Intr.cs" />
+    <Compile Include="Dest.Math\Segment2Box2Intr.cs" />
+    <Compile Include="Dest.Math\Segment2Circle2Intr.cs" />
+    <Compile Include="Dest.Math\Segment2ConvexPolygon2Intr.cs" />
+    <Compile Include="Dest.Math\Segment2Segment2Intr.cs" />
+    <Compile Include="Dest.Math\Segment2Triangle2Intr.cs" />
+    <Compile Include="Dest.Math\Segment3.cs" />
+    <Compile Include="Dest.Math\Segment3AAB3Intr.cs" />
+    <Compile Include="Dest.Math\Segment3Box3Intr.cs" />
+    <Compile Include="Dest.Math\Segment3Circle3Intr.cs" />
+    <Compile Include="Dest.Math\Segment3Plane3Intr.cs" />
+    <Compile Include="Dest.Math\Segment3Polygon3Intr.cs" />
+    <Compile Include="Dest.Math\Segment3Rectangle3Intr.cs" />
+    <Compile Include="Dest.Math\Segment3Sphere3Intr.cs" />
+    <Compile Include="Dest.Math\Segment3Triangle3Intr.cs" />
+    <Compile Include="Dest.Math\Sphere3.cs" />
+    <Compile Include="Dest.Math\Sphere3Sphere3Intr.cs" />
+    <Compile Include="Dest.Math\Sphere3Sphere3IntrTypes.cs" />
+    <Compile Include="Dest.Math\Triangle2.cs" />
+    <Compile Include="Dest.Math\Triangle2Triangle2Intr.cs" />
+    <Compile Include="Dest.Math\Triangle3.cs" />
+    <Compile Include="Dest.Math\Triangle3Triangle3Intr.cs" />
+    <Compile Include="Dest.Math\Vector2ex.cs" />
+    <Compile Include="Dest.Math\Vector3ex.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
