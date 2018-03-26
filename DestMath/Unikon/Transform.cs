@@ -835,7 +835,8 @@ namespace UnityEngine
 
         private static void INTERNAL_CALL_LookAt(Transform self, ref Vector3 worldPosition, ref Vector3 worldUp)
         {
-            throw new NotImplementedException();
+            Vector3 forward = worldPosition - self.position;
+            self.rotation = Quaternion.LookRotation(forward, worldUp);
         }
 
         /// <summary>
@@ -851,7 +852,9 @@ namespace UnityEngine
 
         private static void INTERNAL_CALL_TransformDirection(Transform self, ref Vector3 direction, out Vector3 value)
         {
-            throw new NotImplementedException();
+            Quaternion lhs = self.rotation;
+            Vector3 rhs = direction;
+            value = Quaternion.RotateVectorByQuat(self, ref lhs, ref rhs);
         }
 
         /// <summary>
@@ -878,7 +881,9 @@ namespace UnityEngine
 
         private static void INTERNAL_CALL_InverseTransformDirection(Transform self, ref Vector3 direction, out Vector3 value)
         {
-            throw new NotImplementedException();
+            Quaternion lhs = Quaternion.Inverse(self.rotation);
+            Vector3 rhs = direction;
+            value = Quaternion.RotateVectorByQuat(self, ref lhs, ref rhs);
         }
 
         /// <summary>

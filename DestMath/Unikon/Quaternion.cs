@@ -882,5 +882,46 @@ namespace UnityEngine
                 return this.w.Equals(quaternion.w);
             return false;
         }
+
+
+
+        //internal Quaternion NormalizeSafe(Quaternion q)
+        //{
+        //    float mag = Magnitude(q);
+        //    if (mag < Vector3.kEpsilon)
+        //        return Quaternion.identity;
+        //    else
+        //        return q / mag;
+        //}
+
+
+        internal static Vector3 RotateVectorByQuat(Transform self, ref Quaternion lhs, ref Vector3 rhs)
+        {
+            //	Matrix3x3f m;
+            //	QuaternionToMatrix (lhs, &m);
+            //	Vector3f restest = m.MultiplyVector3 (rhs);
+
+            float x = lhs.x * 2.0F;
+            float y = lhs.y * 2.0F;
+            float z = lhs.z * 2.0F;
+            float xx = lhs.x * x;
+            float yy = lhs.y * y;
+            float zz = lhs.z * z;
+            float xy = lhs.x * y;
+            float xz = lhs.x * z;
+            float yz = lhs.y * z;
+            float wx = lhs.w * x;
+            float wy = lhs.w * y;
+            float wz = lhs.w * z;
+
+            Vector3 res;
+            res.x = (1.0f - (yy + zz)) * rhs.x + (xy - wz) * rhs.y + (xz + wy) * rhs.z;
+            res.y = (xy + wz) * rhs.x + (1.0f - (xx + zz)) * rhs.y + (yz - wx) * rhs.z;
+            res.z = (xz - wy) * rhs.x + (yz + wx) * rhs.y + (1.0f - (xx + yy)) * rhs.z;
+
+            //	AssertIf (!CompareApproximately (restest, res));
+            return res;
+        }
+
     }
 }
