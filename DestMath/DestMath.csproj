@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectGuid>{65A2CE9B-2209-4AF7-8B3D-97261500CF8C}</ProjectGuid>
@@ -150,6 +150,34 @@
     <Compile Include="Dest.Math\Vector2ex.cs" />
     <Compile Include="Dest.Math\Vector3ex.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unikon\Bounds.cs" />
+    <Compile Include="Unikon\Color.cs" />
+    <Compile Include="Unikon\Color32.cs" />
+    <Compile Include="Unikon\Component.cs" />
+    <Compile Include="Unikon\ComponentList.cs" />
+    <Compile Include="Unikon\Coroutine.cs" />
+    <Compile Include="Unikon\GameObject.cs" />
+    <Compile Include="Unikon\Mathf.cs" />
+    <Compile Include="Unikon\Matrix4x4.cs" />
+    <Compile Include="Unikon\MonoBehaviour.cs" />
+    <Compile Include="Unikon\Object.cs" />
+    <Compile Include="Unikon\Quaternion.cs" />
+    <Compile Include="Unikon\RangeInt.cs" />
+    <Compile Include="Unikon\Ray.cs" />
+    <Compile Include="Unikon\Ray2D.cs" />
+    <Compile Include="Unikon\RaycastHit.cs" />
+    <Compile Include="Unikon\RaycastHit2D.cs" />
+    <Compile Include="Unikon\Rect.cs" />
+    <Compile Include="Unikon\RotationDriveMode.cs" />
+    <Compile Include="Unikon\RotationOrder.cs" />
+    <Compile Include="Unikon\Scene.cs" />
+    <Compile Include="Unikon\Space.cs" />
+    <Compile Include="Unikon\Time.cs" />
+    <Compile Include="Unikon\Transform.cs" />
+    <Compile Include="Unikon\UnityString.cs" />
+    <Compile Include="Unikon\Vector2.cs" />
+    <Compile Include="Unikon\Vector3.cs" />
+    <Compile Include="Unikon\Vector4.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
